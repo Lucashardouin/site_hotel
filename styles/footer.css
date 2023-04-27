@@ -1,0 +1,252 @@
+/* footer */
+footer{
+    margin-top: 50px;
+}
+
+
+.insta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.insta p {
+    font-size: 25px;
+    width: 20%;
+    text-align: center;
+}
+
+/* carrousel */
+
+.carrousel{
+    margin: 50px auto 0;
+    max-width: 1200px;
+    width: 75vw;
+    max-height: calc(1200px*9/16);
+    height: calc(75vw *9/16);
+    border: 15px solid white;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+    position: relative;
+    overflow: hidden;
+}
+.carrousel .reglette{
+    display: flex;
+    height: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    justify-content: start;
+    align-items: center;
+}
+
+.carrousel .reglette figure{
+    height: 100%;
+    position: relative;
+}
+.carrousel .reglette figure img{
+    width: 100%;
+    height: 100%;
+}
+
+.carrousel .previous, .carrousel .next{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 1.5rem;
+    background: rgba(255, 255, 255, .5);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    border-radius: 50%;
+}
+
+.carrousel .previous{
+    left: 10px;
+}
+.carrousel .next{
+    right: 10px;
+}
+
+.carrousel .reglette.animavance{
+    animation: avance 1s ease-in-out forwards;
+    animation-iteration-count: 1;
+}
+.carrousel .reglette.animrecule{
+    animation: recule 1s ease-in-out forwards;
+    animation-iteration-count: 1;
+}
+@keyframes avance {
+
+    0%{
+        left: 0;
+    }
+    100%{
+        left: -100%;
+    }
+}
+
+@keyframes recule {
+
+    0%{
+        left: -100%;
+    }
+    100%{
+        left: 0;
+    }
+}
+
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.fa-arrow-right{
+    width: 50px;
+}
+
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background: #bfbfbf;
+}
+
+
+.infos{
+    display: flex;
+    margin: 100px auto;
+    justify-content: center;
+}
+.contacts{
+    display: flex;
+    width: 30%;
+    font-size: 18px;
+    justify-content: center;
+}
+.contacts a{
+    text-decoration: none;
+    color: #967D36;
+}
+.rewards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+}
+.rewards hr{
+    width: 70%;
+    margin: 50px auto;
+}
+.rewards-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rewards-img img{
+    width: 33%;
+}
+.medias{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.medias a{
+    text-decoration: none;
+    color: white;
+}
+.medias span:hover{
+    background-color: #967D36;
+}
+.medias p{
+    margin: 10px;
+}
+.logos{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    align-items: center;
+}
+
+.logo-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.logo-img img{
+    width: 150px;
+    height: 150px;
+}
+
+.code{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.copyr{
+    margin-top: 30px;
+}
+
+
+@media screen and (max-width:1100px){
+    .insta p{
+        width: 70%;
+    }
+    .logo-title img{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:650px){
+    .insta p{
+        font-size: 20px;
+    }
+    .newsletter p{
+        margin: 10px auto;
+        width: 90%;
+        text-align: center;
+    }
+    .infos{
+        flex-direction: column;
+        align-items: center;
+    }
+    .contacts{
+        width: 70%;
+        text-align: center;
+    }
+    .rewards{
+        width: 70%;
+        margin-top: 20px;
+    }
+    .rewards-img{
+        flex-direction: column;
+    }
+    .rewards-img img{
+        width: 60%;
+    }
+    .medias{
+        width: 70%;
+    }
+    .logo{
+        width: 70%;
+    }
+    .code p{
+        text-align: center;
+    }
+    .logo-title{
+        margin-top: 20px;
+    }
+    .logo-title img{
+        width: 100%;
+    }
+    .copyr{
+        text-align: center;
+    }
+}

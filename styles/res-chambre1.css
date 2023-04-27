@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#accueil{
+    background-color: #F5F3EF;
+}
+
+.home{
+    background-image: url('../rss/Room_Deluxe.webp');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    background-position: center;
+    color: white;
+}
+.home h1{
+    font-size: 15px;
+}
+.home p{
+    width: 30%;
+    text-align: center;
+    font-size: 55px;
+}
+.home span a{
+    font-size: 20px;
+    color: white;
+}
+
+
+.about{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-right: 50px;
+}
+
+.about-right{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.about-right div{
+    margin-top: 30px;
+}
+
+.services-title{
+    margin: 50px auto;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: center;
+}
+.services div{
+    width: 15%;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.icons{
+    width: 100px;
+    height: 100px;
+}
+
+
+.liens{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: .2em;
+    height: 500px;
+    overflow: hidden;
+}
+.liens div{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 45%;
+    justify-content: center;
+    color: white;
+    transition: 0.5s;
+}
+.liens div a {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    color: #ffffff;
+    text-decoration: none;
+}
+.lien_chambre{
+    background: url('../rss/Room_Grand_Deluxe_3-\ _Majestic\ Hotel-Spa.webp') ;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.lien_suite{
+    background: url('../rss/Suite\ Junior\ 3\ -\ \ Majestic\ Hotel-Spa.webp') ;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.lien_bien-etre{
+    background: url('../rss/Swimming\ Pool\ 1.webp') ;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    width: 50%;
+  }
+  
+  label {
+    margin: 10px 0;
+  }
+  
+  input[type="date"],
+  select {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+  }
+  
+  form button:hover {
+    background-color: #ac6161;
+  }
+
+
+
+@media screen and (max-width:1100px){
+    .home p{
+        width: 70%;
+    }
+    .services{
+        width: 90%;
+    }
+    .liens{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        text-align: center;
+    }
+    .liens div{
+        width: 75%;
+    }
+    .icons{
+        width: 50px;
+        height: 50px;
+    }
+    .about-right{
+        margin-top: 0;
+    }
+    form{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .about{
+        flex-direction: column;
+        justify-content: center ;
+        margin-right: 0;
+        align-items: center;
+    }
+    .about-right{
+        width: 70%;
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width:800px) {
+    .column{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .home p{
+        font-size: 40px ;
+        width: 90%;
+    }
+    .home span a{
+        font-size: 15px;
+    }
+    .services div{
+        width: 42%;
+    }
+    .about-right h2{
+        font-size: 20px;
+    }
+    .about-right p{
+        font-size: 15px;
+    }
+    .about-right div span a{
+        font-size: 13px;
+    }
+    .liens div{
+        width: 95% ;
+    }
+    form{
+        width: 90%;
+    }
+    .res-button{
+        width: 50% !important;
+    }
+}
+
+
+
+
+
