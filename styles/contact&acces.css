@@ -17,7 +17,7 @@ nav ul li:nth-child(6) a {
 }
 
 .home{
-    background-image: url('../rss/Suite\ Prestige\ 5-\ \ Majestic\ Hotel-Spa.webp');
+    background-image: url('../rss/contact&accessps.webp');
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -34,6 +34,7 @@ nav ul li:nth-child(6) a {
     width: 30%;
     text-align: center;
     font-size: 55px;
+    font-family: 'Playfair Display',serif;
 }
 .home span a{
     font-size: 20px;
@@ -56,6 +57,16 @@ nav ul li:nth-child(6) a {
 .button a{
     text-decoration: none;
     color: black;
+}
+#contact h2,#contact h3{
+    color: #784343;
+}
+#contact p{
+    font-size: 17px;
+    font-family: 'Playfair Display';
+}
+#contact span{
+    font-family: 'Playfair Display';
 }
 
 .about{
@@ -99,6 +110,15 @@ nav ul li:nth-child(6) a {
     align-items: center;
     text-align: center;
 }
+.services-title h2{
+    color: #784343;
+}
+.services-title p{
+    font-family: 'Playfair Display';
+}
+.services-title p:nth-child(2){
+    font-style: italic;
+}
 
 .services{
     display: flex;
@@ -117,10 +137,12 @@ nav ul li:nth-child(6) a {
     width: 100px;
     height: 100px;
 }
+
 .list-container{
     display: flex;
     width: 50%;
     margin: 20px auto;
+    font-family: 'Playfair Display';
 }
 .list-container a{
     color: #AA965D;
@@ -137,6 +159,11 @@ nav ul li:nth-child(6) a {
     gap: .2em;
     height: 500px;
     overflow: hidden;
+}
+
+.liens div p{
+    font-family: 'Playfair Display';
+    font-style: italic;
 }
 .liens div{
     width: 45%;

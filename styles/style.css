@@ -17,7 +17,7 @@ nav ul li:nth-child(1) a {
 }
 
 .home{
-    background-image: url('../rss/Room_Grand_Deluxe.webp');
+    background-image: url('../rss/Room_Grand_Deluxeps.webp');
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -34,6 +34,7 @@ nav ul li:nth-child(1) a {
     width: 30%;
     text-align: center;
     font-size: 55px;
+    font-family: 'Playfair Display',serif;
 }
 .home span a{
     font-size: 20px;
@@ -72,6 +73,15 @@ nav ul li:nth-child(1) a {
     flex-direction: column;
     margin-top: 50px;
 }
+.about-right h2{
+    color: #784343;
+}
+.about-right p{
+    font-family: 'Playfair Display';
+}
+.about-right p:nth-child(2){
+    font-style: italic;
+}
 .about-right div{
     margin-top: 30px;
 }
@@ -100,6 +110,14 @@ nav ul li:nth-child(1) a {
     width: 70%;
 }
 
+.services-title h2{
+    color: #784343;
+}
+.services-title p{
+    font-family: 'Playfair Display';
+    font-style: italic;
+}
+
 .services{
     display: flex;
     flex-wrap: wrap;
@@ -116,6 +134,9 @@ nav ul li:nth-child(1) a {
     align-items: center;
     text-align: center;
 }
+.services div p{
+    font-family: 'Playfair Display';
+}
 
 .icons{
     width: 100px;
@@ -130,6 +151,10 @@ nav ul li:nth-child(1) a {
     gap: .2em;
     height: 500px;
     overflow: hidden;
+}
+.liens div p{
+    font-family: 'Playfair Display';
+    font-style: italic;
 }
 .liens div{
     width: 45%;

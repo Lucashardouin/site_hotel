@@ -17,7 +17,7 @@ nav ul li:nth-child(2) a {
 }
 
 .home{
-    background-image: url('../rss/hotel1.jpg');
+    background-image: url('../rss/hotel1ps.webp');
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -34,6 +34,7 @@ nav ul li:nth-child(2) a {
     width: 30%;
     text-align: center;
     font-size: 55px;
+    font-family: 'Playfair Display',serif;
 }
 .home span a{
     font-size: 20px;
@@ -56,6 +57,19 @@ nav ul li:nth-child(2) a {
 .button a{
     text-decoration: none;
     color: black;
+}
+#chambre h2{
+    color: #784343;
+}
+#chambre p{
+    font-size: 17px;
+}
+#chambre p:nth-child(2){
+    font-family: 'Playfair Display';
+    font-style: italic;
+}
+#chambre p:nth-child(4){
+    font-family: 'Playfair Display';
 }
 
 .about{
@@ -80,7 +94,12 @@ nav ul li:nth-child(2) a {
     flex-direction: column;
     justify-content: center;
 }
-
+.about-right h2{
+    color: #784343;
+}
+.about-right p{
+    font-family: 'Playfair Display';
+}
 
 .services-title{
     margin: 100px auto 50px;
@@ -88,6 +107,13 @@ nav ul li:nth-child(2) a {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.services-title h2{
+    color: #784343;
+}
+.services-title p{
+    font-family: 'Playfair Display';
+    font-style: italic;
 }
 
 .services{
@@ -108,6 +134,7 @@ nav ul li:nth-child(2) a {
     width: 70%;
     margin-bottom: 0;
     margin-left: 10px;
+    font-family: 'Playfair Display';
 }
 
 .icons{
@@ -123,6 +150,10 @@ nav ul li:nth-child(2) a {
     gap: .2em;
     height: 300px;
     overflow: hidden;
+}
+.liens div p{
+    font-family: 'Playfair Display';
+    font-style: italic;
 }
 .liens div{
     width: 49%;

@@ -17,7 +17,7 @@ nav ul li:nth-child(4) a {
 }
 
 .home{
-    background-image: url('../rss/hotel4.jpg');
+    background-image: url('../rss/hotel4ps.webp');
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -34,6 +34,7 @@ nav ul li:nth-child(4) a {
     width: 30%;
     text-align: center;
     font-size: 55px;
+    font-family: 'Playfair Display',serif;
 }
 .home span a{
     font-size: 20px;
@@ -56,6 +57,16 @@ nav ul li:nth-child(4) a {
 .button a{
     text-decoration: none;
     color: black;
+}
+#restaurant h2{
+    color: #784343;
+}
+#restaurant p{
+    font-size: 17px;
+    font-family: 'Playfair Display';
+}
+#restaurant span{
+    font-family: 'Playfair Display';
 }
 
 .about{
@@ -84,34 +95,21 @@ nav ul li:nth-child(4) a {
 .about-right div{
     margin-top: 30px;
 }
-
-
-.services-title{
-    margin: 100px auto 50px;
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.about-right h2{
+    color: #784343;
 }
-
-.services{
-    display: flex;
-    flex-wrap: wrap;
-    width: 70%;
-    margin: 0 auto 50px;
-    justify-content: center;
+.about-right p{
+    font-family: 'Playfair Display';
+    font-size: 18px;
 }
-.services div{
-    width: 30%;
-    margin-right: 1em;
-    margin-bottom: 1em;
-    display: flex;
-    align-items: center;
+.about-right h3{
+    font-family: 'Playfair Display';
+    font-size: 18px;
+    font-weight: bold;
 }
-.services div p{
-    width: 70%;
-    margin-bottom: 0;
-    margin-left: 10px;
+.about-right span{
+    font-family: 'Playfair Display';
+    font-size: 18px;
 }
 
 .icons{
@@ -127,6 +125,10 @@ nav ul li:nth-child(4) a {
     gap: .2em;
     height: 300px;
     overflow: hidden;
+}
+.liens div p{
+    font-family: 'Playfair Display';
+    font-style: italic;
 }
 .liens div{
     width: 49%;

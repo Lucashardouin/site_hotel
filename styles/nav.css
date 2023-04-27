@@ -7,9 +7,12 @@ nav img{
 nav ul li{
     margin-right: 5px;
 }
+nav ul li a{
+    border-bottom: 2px solid transparent !important;
+}
 nav ul li a:hover{
     color: #784343 !important;
-    border-bottom: 2px solid #784343;
+    border-bottom: 2px solid #784343 !important;
 }
 .flex{
     display: flex !important;
